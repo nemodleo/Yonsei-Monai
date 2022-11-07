@@ -24,7 +24,7 @@ $scancel -u $USER
 
 ### Step5. submit the job
 ```
-$   sbatch /launch_scripts/monailabel_launch.sh   you_own_hashnumber
+$   sbatch monailabel_launch.sh you_own_hashnumber
 ```
 
 wait 5~10 minutes 
