@@ -1,5 +1,7 @@
 # Yonsei University Hospical - NVIDIA MONAI Bootcamp
 
+[reference](https://github.com/yhgon/bootcamp_kr/tree/main/2022/11_Yonsei_Monai)
+
 # Guide to Server Access
 
 ### step 1. AXIS login 
