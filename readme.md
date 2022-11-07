@@ -11,20 +11,20 @@ https://axis-raplabhackathon.axisportal.io
 
 ### Step3. check slurm queue
 ```
-$ squeue -u $USER
+squeue -u $USER
 ```
 
 ### Step4. kill if the zombie processes are  existing ( if not, omit it) 
 ```
-$scancel jobid
+scancel jobid
 ```
 ```
-$scancel -u $USER
+scancel -u $USER
 ```
 
 ### Step5. submit the job
 ```
-$   sbatch monailabel_launch.sh you_own_hashnumber
+sbatch monailabel_launch.sh you_own_hashnumber
 ```
 
 wait 5~10 minutes 
